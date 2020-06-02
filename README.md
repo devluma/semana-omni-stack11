@@ -34,19 +34,19 @@ A <b>API Rest Full</b> foi criada utilizando <b>ExpressJS</b> com <b>Knex</b> e 
 ### 👉 Front-end
 A <b>Aplicação WEB</b> foi criada utilizando <b>ReactJS</b> com <b>CSS3</b> e <b>Axios</b> para as chamadas na <b>API</b>.
 
-`Tema Normal`:
+**`Tema Normal`:**
 ![Web Application Normal GIF](github/frontend-functional.gif)
 
-`Tema Dark`:
+**`Tema Dark`:**
 ![Web Application Dark GIF](github/frontend-functional-dark.gif)
 
 ### 👉 Mobile
 A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Expo</b> e <b>Styled-Components</b> para estilizar as telas da aplicação.
 
-`Tema Normal`:
+**`Tema Normal`:**
 ![Mobile Application Normal GIF](github/mobile-functional.gif)
 
-`Tema Dark`:
+**`Tema Dark`:**
 ![Mobile Application Dark GIF](github/mobile-functional-dark.gif)
 
 ## 🚀 Tecnologias Utilizadas no Projeto
