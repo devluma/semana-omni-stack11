@@ -3,12 +3,15 @@
 </h1>
 
 # Projeto `Be The Hero`
+
 Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem utilizada no desafio da Semana OmniStack 11 da [Rocketseat](https://rocketseat.com.br/)
 
 # Desafio proposto!
+
 📌 Criar uma aplicação com intuito de conectar pessoas interessadas em ajudar ONGS e ANIMAIS utilizando a stack proposta ([NodeJS](https://nodejs.org/en/docs/), [ReactJS](https://reactjs.org/docs/getting-started.html) e [React Native](https://reactnative.dev/docs/getting-started) / [Expo](https://docs.expo.io/)).
 
 # Além do desafio!
+
 - ✔️ Criar um template Dark utilizando Theme Switcher / [CSS-TRICKS](https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/)
 - ✔️ Criar micro-serviços no docker para facilitar a criação dos ambientes de desenvolvimento / [DEV-DOCKER](https://github.com/devluma/dev-docker)
 - ✔️ Adicionar os pacotes de cada plataforma como sub-módulos do <b>GIT</b> / [GIT-SUB-MODULES](https://git-scm.com/docs/git-submodule/)
@@ -28,11 +31,13 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 ## 🚢 Descrição do Projeto:
 
 ### 👉 Back-end:
+
 A <b>API Rest Full</b> foi criada utilizando <b>ExpressJS</b> com <b>Knex</b> e o <b>Insomnia</b> para testar as rotas e autenticação das chamadas na <b>API</b>.
 
 ![Test API Insomnia GIF](github/api-test-insomnia.gif)
 
 ### 👉 Front-end
+
 A <b>Aplicação WEB</b> foi criada utilizando <b>ReactJS</b> com <b>CSS3</b> e <b>Axios</b> para as chamadas na <b>API</b>.
 
 **`Tema Normal`:**
@@ -42,6 +47,7 @@ A <b>Aplicação WEB</b> foi criada utilizando <b>ReactJS</b> com <b>CSS3</b> e 
 ![Web Application Dark GIF](github/frontend-functional-dark.gif)
 
 ### 👉 Mobile
+
 A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Expo</b> e <b>Styled-Components</b> para estilizar as telas da aplicação.
 
 **`Tema Normal`:**
@@ -99,7 +105,8 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
 </table>
 
 ## 👪 Contribuições
-😉 Contribuições são bem-vindas! 
+
+😉 Contribuições são bem-vindas!
 🌈 Sinta-se livre para abrir uma <b>ISSUE</b> ou um <b>PULL REQUEST</b> e participar do projeto como você desejar.
 
 ## 📜 Direitos e Licença
@@ -116,8 +123,8 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
 ![Build Status][plataform-image]
 [![Downloads Stats][version-download-image]][version-download]
 
-[version-image]: https://img.shields.io/badge/version-1.0.0-brightgreen?style=flat-square
+[version-image]: https://img.shields.io/badge/version-0.1.0-brightgreen?style=flat-square
 [version-url]: https://github.com/devluma/semana-omni-stack11/releases
-[version-download-image]: https://img.shields.io/badge/download-1.0.0-blue?style=flat-square
+[version-download-image]: https://img.shields.io/badge/download-0.1.0-blue?style=flat-square
 [version-download]: https://github.com/devluma/semana-omni-stack11/archive/master.zip
 [plataform-image]: https://img.shields.io/badge/plataform-API%20%7C%20WEB%20%7C%20MOBILE-lightgrey
