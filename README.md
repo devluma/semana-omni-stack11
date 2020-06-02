@@ -71,12 +71,12 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
       <td>React Native - Expo</td>
     </tr>
     <tr>
-      <td>ExpressJS ou AdonisJS</td>
+      <td>ExpressJS</td>
       <td>CSS3</td>
       <td>Styled-Components</td>
     </tr>
     <tr>
-      <td>SqLite e Postgres</td>
+      <td>SqLite</td>
       <td>Axios</td>
       <td>Axios</td>
     </tr>
