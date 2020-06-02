@@ -17,9 +17,10 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 - ✔️ Adicionar <b>EditorConfig</b>, <b>Eslint</b> e <b>Prettier</b> para padronizar o código da aplicação / [Dica do DIEGO3G](https://www.youtube.com/watch?v=TI4v4Y8yRjw)
 - ✔️ Adicionar animações nos botões, inputs e loading dos formulários
 - ✔️ Adicionar testes de integração e unitários ao projeto utilizando [JEST](https://jestjs.io/docs/en/getting-started) e [SQLITE](https://www.sqlite.org/docs.html)
-- ✔️ Adicionar <b>Login Social</b> na aplicação utilizando mídias socias como <b>Google</b>, <b>Facebook</b> e <b>GitHub</b>
+- ✔️ Adicionar <b>Login Social</b> na aplicação, utilizando mídias socias como <b>Google</b>, <b>Facebook</b> e <b>GitHub</b>
 - ✔️ Alterar a animação da navegação do mobile para deixá-la igual a de <b>IOS</b> / [Dica do ARTHURPC03](https://www.youtube.com/watch?v=dYRHe2Kkq04)
 - ✔️ Alterar o <b>HEADER</b> da aplicação para ficar com um efeito de <b>Scroll-Over</b> ao rolar a página
+- ✔️ Ajustar o aplicativo web para aceitar responsividade
 - ✔️ Utilizar [Styled-Components](https://styled-components.com/) para estilizar as telas da aplicação
 - ✔️ Utilizar [@typescript](https://www.typescriptlang.org/) como superset no JavaScript
 - ✔️ Utilizar o [Sequelize](https://sequelize.org/) como <b>ORM na API</b>.
