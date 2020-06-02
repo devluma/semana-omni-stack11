@@ -106,7 +106,7 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
 
 ## 👪 Contribuições
 
-😉 Contribuições são bem-vindas!
+😉 Contribuições são bem-vindas! <br />
 🌈 Sinta-se livre para abrir uma <b>ISSUE</b> ou um <b>PULL REQUEST</b> e participar do projeto como você desejar.
 
 ## 📜 Direitos e Licença
