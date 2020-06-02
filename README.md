@@ -34,10 +34,20 @@ A <b>API Rest Full</b> foi criada utilizando <b>ExpressJS</b> com <b>Knex</b> e 
 ### 👉 Front-end
 A <b>Aplicação WEB</b> foi criada utilizando <b>ReactJS</b> com <b>CSS3</b> e <b>Axios</b> para as chamadas na <b>API</b>.
 
-![Web Application GIF](github/frontend-functional.gif)
+`Tema Normal`:
+![Web Application Normal GIF](github/frontend-functional.gif)
+
+`Tema Dark`:
+![Web Application Dark GIF](github/frontend-functional-dark.gif)
 
 ### 👉 Mobile
 A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Expo</b> e <b>Styled-Components</b> para estilizar as telas da aplicação.
+
+`Tema Normal`:
+![Mobile Application Normal GIF](github/mobile-functional.gif)
+
+`Tema Dark`:
+![Mobile Application Dark GIF](github/mobile-functional-dark.gif)
 
 ## 🚀 Tecnologias Utilizadas no Projeto
 
@@ -87,16 +97,19 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
   
 </table>
 
-## Contribuições
-😉 Contribuições são bem-vindas! Sinta-se livre para abrir uma <b>ISSUE</b> ou um <b>PULL REQUEST</b> e participar do projeto como você desejar.
+## 👪 Contribuições
+😉 Contribuições são bem-vindas! 
+🌈 Sinta-se livre para abrir uma <b>ISSUE</b> ou um <b>PULL REQUEST</b> e participar do projeto como você desejar.
 
-## Direitos e Licença
+## 📜 Direitos e Licença
 
 ✌ Este projeto está sobre [Licença MIT](https://choosealicense.com/licenses/mit/) e foi criado por [Luiz Marcelo Schmitt](https://www.linkedin.com/in/devluma/)
 
-<img alt="Sysdomotic.com.br" src="github/logo-sysdomotic.png" width="120px" />
+<a href="https://www.sysdomotic.com.br/" target="_blank">
+  <img alt="Sysdomotic.com.br" src="github/logo-sysdomotic.png" width="120px" />
+</a>
 
-## Status do Projeto
+## 🔋 Status do Projeto
 
 [![App Version][version-image]][version-url]
 ![Build Status][plataform-image]
