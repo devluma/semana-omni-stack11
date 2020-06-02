@@ -128,6 +128,8 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
 ![Build Status][plataform-image]
 [![Downloads Stats][version-download-image]][version-download]
 
+###### <div align="right">[Voltar](#projeto-be-the-hero) ↺</div>
+
 [version-image]: https://img.shields.io/badge/version-0.1.0-brightgreen?style=flat-square
 [version-url]: https://github.com/devluma/semana-omni-stack11/releases
 [version-download-image]: https://img.shields.io/badge/download-0.1.0-blue?style=flat-square
