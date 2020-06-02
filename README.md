@@ -113,8 +113,13 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
 
 ✌ Este projeto está sobre [Licença MIT](https://choosealicense.com/licenses/mit/) e foi criado por [Luiz Marcelo Schmitt](https://www.linkedin.com/in/devluma/)
 
+## 🙌 Apoiadores
+
 <a href="https://www.sysdomotic.com.br/" target="_blank">
   <img alt="Sysdomotic.com.br" src="github/logo-sysdomotic.png" width="120px" />
+</a> &nbsp;&nbsp;&nbsp;
+<a href="https://www.maizzon.com.br/" target="_blank">
+  <img alt="Maizzon.com.br" src="github/logo-maizzon.png" width="120px" />
 </a>
 
 ## 🔋 Status do Projeto
