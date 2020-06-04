@@ -46,6 +46,12 @@
   border-color: #999;
 }
 
+.profile-container header a.strong-link {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+}
+
 .profile-container h1 {
   margin-top: 50px;
   margin-bottom: 24px;

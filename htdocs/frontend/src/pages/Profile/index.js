@@ -1,4 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-alert */
 import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiPower, FiTrash2, FiEdit2 } from 'react-icons/fi';
@@ -19,6 +20,10 @@ export default function Profile() {
     localStorage.clear();
 
     history.push('/');
+  }
+
+  function handleEditIncident(id) {
+    history.push(`/incidents/edit/${id}`);
   }
 
   async function handleDeleteIncident(id) {
@@ -56,7 +61,10 @@ export default function Profile() {
       <header>
         <img src={logoImg} alt="Be The Hero" />
         <span>
-          Bem vindo(a), <strong>{ongName}</strong>
+          Bem vindo(a),{' '}
+          <Link to="/ongs/edit" className="strong-link">
+            {ongName}
+          </Link>
         </span>
 
         <Link to="/incidents/new" className="button">
@@ -88,7 +96,7 @@ export default function Profile() {
             </p>
 
             <div className="profile-group-buttons">
-              <button type="button">
+              <button onClick={() => handleEditIncident(incident.id)} type="button">
                 <FiEdit2 size={20} color="#7159c1" />
               </button>
 
