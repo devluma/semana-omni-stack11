@@ -12,21 +12,21 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 
 ## Além do desafio!
 
-- ✔️ Criar um template Dark utilizando Theme Switcher / [CSS-TRICKS](https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/)
+- ❌ Criar um template Dark utilizando Theme Switcher / [CSS-TRICKS](https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/)
 - ✔️ Criar micro-serviços no docker para facilitar a criação dos ambientes de desenvolvimento / [DEV-DOCKER](https://github.com/devluma/dev-docker)
 - ✔️ Adicionar os pacotes de cada plataforma como sub-módulos do <b>GIT</b> / [GIT-SUB-MODULES](https://git-scm.com/docs/git-submodule/)
-- ✔️ Adicionar uma rotina para editar as <b>ONGS</b> e os <b>CASOS</b> já cadastrados
+- ❌ Adicionar uma rotina para editar as <b>ONGS</b> e os <b>CASOS</b> já cadastrados
 - ✔️ Adicionar um rodapé com as informações de <b>Copyright</b> da <b>Aplicação</b>
 - ✔️ Adicionar <b>EditorConfig</b>, <b>Eslint</b> e <b>Prettier</b> para padronizar o código da aplicação / [Dica do DIEGO3G](https://www.youtube.com/watch?v=TI4v4Y8yRjw)
-- ✔️ Adicionar animações nos botões, inputs e loading dos formulários / [Dica do ARTHURPC03](https://github.com/ARTHURPC03/Be-The-Hero)
-- ✔️ Adicionar testes de integração e unitários ao projeto utilizando [JEST](https://jestjs.io/docs/en/getting-started) e [SQLITE](https://www.sqlite.org/docs.html)
-- ✔️ Adicionar <b>Login Social</b> na aplicação, utilizando mídias socias como <b>Google</b>, <b>Facebook</b> e <b>GitHub</b>
-- ✔️ Alterar a animação da navegação do mobile para deixá-la igual a de <b>IOS</b> / [Dica do ARTHURPC03](https://www.youtube.com/watch?v=dYRHe2Kkq04)
+- ❌ Adicionar animações nos botões, inputs e loading dos formulários / [Dica do ARTHURPC03](https://github.com/ARTHURPC03/Be-The-Hero)
+- ❌ Adicionar testes de integração e unitários ao projeto utilizando [JEST](https://jestjs.io/docs/en/getting-started) e [SQLITE](https://www.sqlite.org/docs.html)
+- ❌ Adicionar <b>Login Social</b> na aplicação, utilizando mídias socias como <b>Google</b>, <b>Facebook</b> e <b>GitHub</b>
+- ❌ Alterar a animação da navegação do mobile para deixá-la igual a de <b>IOS</b> / [Dica do ARTHURPC03](https://www.youtube.com/watch?v=dYRHe2Kkq04)
 - ✔️ Alterar o <b>HEADER</b> da aplicação para ficar com um efeito de <b>Scroll-Over</b> ao rolar a página
-- ✔️ Ajustar o aplicativo web para aceitar responsividade
-- ✔️ Utilizar [Styled-Components](https://styled-components.com/) para estilizar as telas da aplicação
-- ✔️ Utilizar [@typescript](https://www.typescriptlang.org/) como superset no JavaScript
-- ✔️ Utilizar o [Sequelize](https://sequelize.org/) como <b>ORM na API</b>.
+- ❌ Ajustar o aplicativo web para aceitar responsividade
+- ❌ Utilizar [Styled-Components](https://styled-components.com/) para estilizar as telas da aplicação
+- ❌ Utilizar [@typescript](https://www.typescriptlang.org/) como superset no JavaScript
+- ❌ Utilizar o [Sequelize](https://sequelize.org/) como <b>ORM na API</b>.
 
 # 🚢 Descrição do Projeto:
 
