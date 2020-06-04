@@ -85,7 +85,7 @@ export default function NewIncident() {
             onChange={(e) => setValue(e.target.value)}
           />
 
-          <button type="submit" className="button">
+          <button type="submit" className="animation animation-effect-1">
             Cadastrar
           </button>
         </form>

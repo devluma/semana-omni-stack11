@@ -90,3 +90,53 @@ form textarea {
 .link-href:hover {
   opacity: 0.8;
 }
+
+/* Animar Botões */
+.animation {
+  width: 100%;
+  height: 60px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffff;
+  background: #e02041;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-color: #fff;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.animation:active {
+  box-shadow: 0 5px rgb(160, 145, 212);
+  transform: translateY(4px);
+}
+
+/* Efeito Botão Hover Right */
+.animation-effect-1 {
+  background-color: #e02041;
+}
+
+.animation-effect-1:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  border-color: #fff;
+  transition: all 2s ease;
+}
+
+.animation-effect-1:hover:before {
+  width: 100%;
+}

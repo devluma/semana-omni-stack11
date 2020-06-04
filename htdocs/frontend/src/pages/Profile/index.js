@@ -67,7 +67,7 @@ export default function Profile() {
           </Link>
         </span>
 
-        <Link to="/incidents/new" className="button">
+        <Link to="/incidents/new" className="animation animation-effect-1">
           Cadastrar novo caso
         </Link>
 

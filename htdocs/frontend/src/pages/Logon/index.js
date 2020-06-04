@@ -51,7 +51,7 @@ export default function Logon() {
             onChange={(e) => setEmail(e.target.value)}
             required="required"
           />
-          <button type="submit" className="button">
+          <button type="submit" className="animation animation-effect-1">
             Entrar
           </button>
 

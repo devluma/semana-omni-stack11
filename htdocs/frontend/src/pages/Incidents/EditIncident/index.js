@@ -89,7 +89,7 @@ export default function EditIncident() {
             onChange={(e) => setValue(e.target.value)}
           />
 
-          <button type="submit" className="button">
+          <button type="submit" className="animation animation-effect-1">
             Salvar
           </button>
         </form>

@@ -103,7 +103,7 @@ export default function Register() {
             />
           </div>
 
-          <button type="submit" className="button">
+          <button type="submit" className="animation animation-effect-1">
             Cadastrar
           </button>
         </form>
