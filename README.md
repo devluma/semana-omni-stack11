@@ -10,7 +10,7 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 
 📌 Criar uma aplicação com intuito de conectar pessoas interessadas em ajudar ONGS e ANIMAIS utilizando a stack proposta ([NodeJS](https://nodejs.org/en/docs/), [ReactJS](https://reactjs.org/docs/getting-started.html) e [React Native](https://reactnative.dev/docs/getting-started) / [Expo](https://docs.expo.io/)).
 
-# Além do desafio!
+## Além do desafio!
 
 - ✔️ Criar um template Dark utilizando Theme Switcher / [CSS-TRICKS](https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/)
 - ✔️ Criar micro-serviços no docker para facilitar a criação dos ambientes de desenvolvimento / [DEV-DOCKER](https://github.com/devluma/dev-docker)
