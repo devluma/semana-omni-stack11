@@ -40,21 +40,52 @@ A <b>API Rest Full</b> foi criada utilizando <b>ExpressJS</b> com <b>Knex</b> e 
 
 A <b>Aplicação WEB</b> foi criada utilizando <b>ReactJS</b> com <b>CSS3</b> e <b>Axios</b> para as chamadas na <b>API</b>.
 
-**`Tema Normal`:**
-![Web Application Normal GIF](github/frontend-functional.gif)
+<table>
+  <thead>
+    <th><b>Tema Normal:</b></th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img alt="Web Application Normal GIF" src="github/frontend-functional.gif" width="800px" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-**`Tema Dark`:**
-![Web Application Dark GIF](github/frontend-functional-dark.gif)
+<table>
+  <thead>
+    <th><b>Tema Dark</b></th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img alt="Web Application Dark GIF" src="github/frontend-functional-dark.gif" width="800px" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 👉 Mobile
 
 A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Expo</b> e <b>Styled-Components</b> para estilizar as telas da aplicação.
 
-**`Tema Normal`:**
-![Mobile Application Normal GIF](github/mobile-functional.gif)
-
-**`Tema Dark`:**
-![Mobile Application Dark GIF](github/mobile-functional-dark.gif)
+<table>
+  <thead>
+    <th><b>Tema Normal:</b></th>
+    <th><b>Tema Dark</b></th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img alt="Mobile Application Normal GIF" src="github/mobile-functional.gif" width="200px" />
+      </td>
+      <td>
+        <img alt="Mobile Application Dark GIF" src="github/mobile-functional-dark.gif" width="200px" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🚀 Tecnologias Utilizadas no Projeto
 
