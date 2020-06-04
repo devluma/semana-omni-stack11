@@ -99,10 +99,10 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
   <tbody>
     <tr>
       <td>
-        <img alt="Mobile Application Normal GIF" src="github/mobile-functional.gif" />
+        <img alt="Mobile Application Normal GIF" src="github/mobile-functional.gif" width="277px" height="564px" />
       </td>
       <td>
-        <img alt="Mobile Application Dark GIF" src="github/mobile-functional-dark.gif" />
+        <img alt="Mobile Application Dark GIF" src="github/mobile-functional-dark.gif" width="277px" height="564px" />
       </td>
     </tr>
   </tbody>
