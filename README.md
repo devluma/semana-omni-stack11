@@ -42,12 +42,14 @@ A <b>Aplicação WEB</b> foi criada utilizando <b>ReactJS</b> com <b>CSS3</b> e 
 
 <table>
   <thead>
-    <th><b>Tema Normal:</b></th>
+    <th>
+      <b>Tema Normal:</b>
+    </th>
   </thead>
   <tbody>
     <tr>
       <td>
-        <img alt="Web Application Normal GIF" src="github/frontend-functional.gif" width="800px" />
+        <img alt="Web Application Normal GIF" src="github/frontend-functional.gif" />
       </td>
     </tr>
   </tbody>
@@ -55,12 +57,14 @@ A <b>Aplicação WEB</b> foi criada utilizando <b>ReactJS</b> com <b>CSS3</b> e 
 
 <table>
   <thead>
-    <th><b>Tema Dark</b></th>
+    <th>
+      <b>Tema Dark</b>
+    </th>
   </thead>
   <tbody>
     <tr>
       <td>
-        <img alt="Web Application Dark GIF" src="github/frontend-functional-dark.gif" width="800px" />
+        <img alt="Web Application Dark GIF" src="github/frontend-functional-dark.gif" />
       </td>
     </tr>
   </tbody>
@@ -72,16 +76,20 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
 
 <table>
   <thead>
-    <th><b>Tema Normal:</b></th>
-    <th><b>Tema Dark</b></th>
+    <th>
+      <b>Tema Normal:</b>
+    </th>
+    <th>
+      <b>Tema Dark</b>
+    </th>
   </thead>
   <tbody>
     <tr>
       <td>
-        <img alt="Mobile Application Normal GIF" src="github/mobile-functional.gif" width="200px" />
+        <img alt="Mobile Application Normal GIF" src="github/mobile-functional.gif" />
       </td>
       <td>
-        <img alt="Mobile Application Dark GIF" src="github/mobile-functional-dark.gif" width="200px" />
+        <img alt="Mobile Application Dark GIF" src="github/mobile-functional-dark.gif" />
       </td>
     </tr>
   </tbody>
