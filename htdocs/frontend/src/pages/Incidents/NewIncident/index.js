@@ -1,13 +1,14 @@
+/* eslint-disable no-alert */
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
 
-import api from '../../services/api';
+import api from '../../../services/api';
 
-import './styles.css';
+import '../styles.css';
 
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../../assets/logo.svg';
 
 export default function NewIncident() {
   const [title, setTitle] = useState('');
@@ -46,7 +47,7 @@ export default function NewIncident() {
   });
 
   return (
-    <div className="new-incident-container">
+    <div className="incidents-container">
       <div className="content">
         <section className="content-section">
           <img src={logoImg} alt="Be The Hero" className="logo-img" />
@@ -62,14 +63,14 @@ export default function NewIncident() {
         <form onSubmit={handleNewIncident}>
           <input
             type="text"
-            className="new-incident-title"
+            className="incidents-title"
             placeholder="Titulo do caso"
             required="required"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
           <textarea
-            className="new-incident-description"
+            className="incidents-description"
             placeholder="Descrição do caso"
             required="required"
             value={description}
@@ -77,7 +78,7 @@ export default function NewIncident() {
           />
           <input
             type="text"
-            className="new-incident-value"
+            className="incidents-value"
             placeholder="valor em reais"
             required="required"
             value={value}
