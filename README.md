@@ -167,16 +167,17 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
 
 # 🙌 Apoiadores
 
-<div align="center">
+<div align="left">
+  <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <span align="left">
     <a href="https://www.sysdomotic.com.br/" target="_blank">
-      <img alt="Sysdomotic.com.br" src="github/logo-sysdomotic.png" width="96px" />
+      <img alt="Sysdomotic.com.br" src="github/logo-sysdomotic.png" width="86px" />
     </a>
   </span>
   <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <span align="left">
     <a href="https://www.maizzon.com.br/" target="_blank"  margin="15px">
-      <img alt="Maizzon.com.br" src="github/logo-maizzon.png" width="96px" />
+      <img alt="Maizzon.com.br" src="github/logo-maizzon.png" width="86px" />
     </a>
   </span>
 </div>
