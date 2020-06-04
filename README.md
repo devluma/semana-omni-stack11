@@ -34,7 +34,20 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 
 A <b>API Rest Full</b> foi criada utilizando <b>ExpressJS</b> com <b>Knex</b> e o <b>Insomnia</b> para testar as rotas e autenticação das chamadas na <b>API</b>.
 
-![Test API Insomnia GIF](github/api-test-insomnia.gif)
+<table>
+  <thead>
+    <th>
+      <b>Consultas no Insomnia:</b>
+    </th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img alt="API Teste no Insomnia" src="github/api-test-insomnia.gif" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 👉 Front-end
 
@@ -58,7 +71,7 @@ A <b>Aplicação WEB</b> foi criada utilizando <b>ReactJS</b> com <b>CSS3</b> e 
 <table>
   <thead>
     <th>
-      <b>Tema Dark</b>
+      <b>Tema Dark:</b>
     </th>
   </thead>
   <tbody>
@@ -80,7 +93,7 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
       <b>Tema Normal:</b>
     </th>
     <th>
-      <b>Tema Dark</b>
+      <b>Tema Dark:</b>
     </th>
   </thead>
   <tbody>
