@@ -108,7 +108,7 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
   </tbody>
 </table>
 
-## 🚀 Tecnologias Utilizadas no Projeto
+## 🚀 Tecnologia(s) Utilizada(s) no Projeto
 
 <table>
   <thead>
