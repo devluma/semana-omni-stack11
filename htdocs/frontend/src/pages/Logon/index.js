@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiLogIn } from 'react-icons/fi';
@@ -11,13 +12,14 @@ import heroesImg from '../../assets/heroes.png';
 
 export default function Logon() {
   const [id, setId] = useState('');
+  const [email, setEmail] = useState('');
   const history = useHistory();
 
   async function handleLogin(e) {
     e.preventDefault();
 
     try {
-      const response = await api.post('/auth', { id });
+      const response = await api.post('/auth', { id, email });
 
       localStorage.setItem('ongId', id);
       localStorage.setItem('ongName', response.data.name);
@@ -36,9 +38,17 @@ export default function Logon() {
           <h1>Faça seu logon</h1>
 
           <input
+            type="text"
             placeholder="Sua ID"
             value={id}
             onChange={(e) => setId(e.target.value)}
+            required="required"
+          />
+          <input
+            type="email"
+            placeholder="Seu E-mail"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             required="required"
           />
           <button type="submit" className="button">

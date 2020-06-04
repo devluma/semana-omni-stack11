@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
@@ -51,7 +52,7 @@ export default function Register() {
 
           <Link to="/" className="link-href">
             <FiArrowLeft size={16} color="#E02041" />
-            Voltar para logon
+            Já tenho cadastro
           </Link>
         </section>
 
