@@ -32,7 +32,7 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 
 ### 👉 Back-end:
 
-A <b>API Rest Full</b> foi criada utilizando <b>ExpressJS</b> com <b>Knex</b> e o <b>Insomnia</b> para testar as rotas e autenticação das chamadas na <b>API</b>.
+A <b>API RESTful</b> foi criada utilizando <b>ExpressJS</b> com <b>Knex</b> e o <b>Insomnia</b> para testar as rotas e autenticação das chamadas na <b>API</b>.
 
 <table>
   <thead>
