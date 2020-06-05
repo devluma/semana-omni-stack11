@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 14px Roboto, sans-serif;
+  background-color: #f0f0f5;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+footer {
+  font: 500 16px Roboto, sans-serif;
+  color: #737380;
+  text-align: center;
+  padding: 30px;
+}
+
+input,
+button,
+textarea {
+  font: 400 18px Roboto, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+form input {
+  width: 100%;
+  height: 60px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 0 24px;
+}
+
+form textarea {
+  resize: vertical;
+  width: 100%;
+  min-height: 140px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 16px 24px;
+  line-height: 24px;
+}
+
+.button {
+  width: 100%;
+  height: 60px;
+  background: #e02041;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
+
+.link-href {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  color: #41414d;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.link-href svg {
+  margin-right: 8px;
+}
+
+.link-href:hover {
+  opacity: 0.8;
+}
+
+/* Animar Botões */
+.animation {
+  width: 100%;
+  height: 60px;
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 60px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: all 400ms ease;
+}
+
+.animation:active {
+  box-shadow: 0 5px rgb(160, 145, 212);
+  transform: translateY(4px);
+}
+
+/* Efeito Botão Hover Right */
+.animation-effect-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffff;
+  border-color: #fff;
+  background: #e02041;
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.animation-effect-button:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  border-color: #fff;
+  transition: all 2s ease;
+}
+
+.animation-effect-button:hover:before {
+  width: 100%;
+}
+
+/*  */
+.animation-effect-button-pow:active {
+  box-shadow: 0 0px rgb(0, 0, 0);
+  transform: translateY(1px);
+}
+
+.animation-effect-button-pow:hover {
+  transform: skew(-10deg);
+}
+
+/* Efeito Input Hoverflow */
+.animation-effect-input {
+  background-color: #ffff;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.animation-effect-input:hover {
+  background: rgba(145, 127, 206, 0.8);
+  color: #ffff;
+  box-shadow: inset 0 0 0 3px #816cc8;
+}
+
+.animation-effect-input:hover::placeholder,
+.animation-effect-input:focus::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #41414d;
+  opacity: 1; /* Firefox */
+}
+
+.animation-effect-input:hover:-ms-input-placeholder,
+.animation-effect-input:focus:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #41414d;
+}
+
+.animation-effect-input:hover::-ms-input-placeholder
+  .animation-effect-input:focus::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #41414d;
+}
+
+.animation-effect-input:after {
+  opacity: 0;
+  background: #a091d4;
+  transition: all 0.8s;
+}
+
+.animation-effect-input:active:after {
+  opacity: 1;
+  transition: 0s;
+}
