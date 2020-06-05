@@ -95,22 +95,11 @@ form textarea {
 .animation {
   width: 100%;
   height: 60px;
-  border: none;
-  outline: none;
-  font-weight: 700;
   margin-top: 16px;
   font-size: 18px;
   line-height: 60px;
-  color: #ffff;
-  background: #e02041;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 10px;
+  border-radius: 8px;
   box-sizing: border-box;
-  border-color: #fff;
-  cursor: pointer;
   transition: all 400ms ease;
 }
 
@@ -120,11 +109,21 @@ form textarea {
 }
 
 /* Efeito Botão Hover Right */
-.animation-effect-1 {
-  background-color: #e02041;
+.animation-effect-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffff;
+  border-color: #fff;
+  background: #e02041;
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
 }
 
-.animation-effect-1:before {
+.animation-effect-button:before {
   content: '';
   position: absolute;
   top: 0px;
@@ -132,11 +131,64 @@ form textarea {
   width: 0px;
   height: 64px;
   background: rgba(255, 255, 255, 0.4);
-  border-radius: 10px;
+  border-radius: 8px;
   border-color: #fff;
   transition: all 2s ease;
 }
 
-.animation-effect-1:hover:before {
+.animation-effect-button:hover:before {
   width: 100%;
+}
+
+/*  */
+.animation-effect-button-pow:active {
+  box-shadow: 0 0px rgb(0, 0, 0);
+  transform: translateY(1px);
+}
+
+.animation-effect-button-pow:hover {
+  transform: skew(-10deg);
+}
+
+/* Efeito Input Hoverflow */
+.animation-effect-input {
+  background-color: #ffff;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.animation-effect-input:hover {
+  background: rgba(145, 127, 206, 0.8);
+  color: #ffff;
+  box-shadow: inset 0 0 0 3px #816cc8;
+}
+
+.animation-effect-input:hover::placeholder,
+.animation-effect-input:focus::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #41414d;
+  opacity: 1; /* Firefox */
+}
+
+.animation-effect-input:hover:-ms-input-placeholder,
+.animation-effect-input:focus:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #41414d;
+}
+
+.animation-effect-input:hover::-ms-input-placeholder
+  .animation-effect-input:focus::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #41414d;
+}
+
+.animation-effect-input:after {
+  opacity: 0;
+  background: #a091d4;
+  transition: all 0.8s;
+}
+
+.animation-effect-input:active:after {
+  opacity: 1;
+  transition: 0s;
 }

@@ -63,14 +63,14 @@ export default function NewIncident() {
         <form onSubmit={handleNewIncident}>
           <input
             type="text"
-            className="incidents-title"
+            className="animation animation-effect-input incidents-title"
             placeholder="Titulo do caso"
             required="required"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
           <textarea
-            className="incidents-description"
+            className="animation animation-effect-input incidents-description"
             placeholder="Descrição do caso"
             required="required"
             value={description}
@@ -78,14 +78,14 @@ export default function NewIncident() {
           />
           <input
             type="text"
-            className="incidents-value"
-            placeholder="valor em reais"
+            className="animation animation-effect-input incidents-value"
+            placeholder="Valor em reais"
             required="required"
             value={value}
             onChange={(e) => setValue(e.target.value)}
           />
 
-          <button type="submit" className="animation animation-effect-1">
+          <button type="submit" className="animation animation-effect-button">
             Cadastrar
           </button>
         </form>

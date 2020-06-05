@@ -59,7 +59,7 @@ export default function Register() {
         <form onSubmit={handleRegister}>
           <input
             type="text"
-            className="register-name"
+            className="animation animation-effect-input register-name"
             placeholder="Nome da ONG"
             title="Este campo é obrigatório!"
             value={name}
@@ -68,7 +68,7 @@ export default function Register() {
           />
           <input
             type="email"
-            className="register-email"
+            className="animation animation-effect-input register-email"
             placeholder="E-mail"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -76,7 +76,7 @@ export default function Register() {
           />
           <input
             type="text"
-            className="register-whatsapp"
+            className="animation animation-effect-input register-whatsapp"
             placeholder="Whatsapp da ONG"
             value={whatsapp}
             onChange={(e) => setWhatsapp(e.target.value)}
@@ -86,7 +86,7 @@ export default function Register() {
           <div className="input-group">
             <input
               type="text"
-              className="register-city"
+              className="animation animation-effect-input register-city"
               placeholder="Cidade"
               value={city}
               onChange={(e) => setCity(e.target.value)}
@@ -94,7 +94,7 @@ export default function Register() {
             />
             <input
               type="text"
-              className="register-uf"
+              className="animation animation-effect-input register-uf"
               placeholder="UF"
               style={{ width: 80 }}
               value={uf}
@@ -103,7 +103,7 @@ export default function Register() {
             />
           </div>
 
-          <button type="submit" className="animation animation-effect-1">
+          <button type="submit" className="animation animation-effect-button">
             Cadastrar
           </button>
         </form>

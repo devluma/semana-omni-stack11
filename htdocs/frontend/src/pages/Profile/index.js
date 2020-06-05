@@ -67,11 +67,15 @@ export default function Profile() {
           </Link>
         </span>
 
-        <Link to="/incidents/new" className="animation animation-effect-1">
+        <Link to="/incidents/new" className="animation animation-effect-button">
           Cadastrar novo caso
         </Link>
 
-        <button type="button" onClick={() => handleLogout()}>
+        <button
+          type="button"
+          className="animation-effect-button-pow"
+          onClick={() => handleLogout()}
+        >
           <FiPower size={18} color="#E02041" />
         </button>
       </header>

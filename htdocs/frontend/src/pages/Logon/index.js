@@ -39,6 +39,7 @@ export default function Logon() {
 
           <input
             type="text"
+            className="animation animation-effect-input"
             placeholder="Sua ID"
             value={id}
             onChange={(e) => setId(e.target.value)}
@@ -46,12 +47,13 @@ export default function Logon() {
           />
           <input
             type="email"
+            className="animation animation-effect-input"
             placeholder="Seu E-mail"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required="required"
           />
-          <button type="submit" className="animation animation-effect-1">
+          <button type="submit" className="animation animation-effect-button">
             Entrar
           </button>
 
