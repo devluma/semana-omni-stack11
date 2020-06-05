@@ -18,7 +18,7 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 - ❌ Adicionar uma rotina para editar as <b>ONGS</b> e os <b>CASOS</b> já cadastrados
 - ✔️ Adicionar um rodapé com as informações de <b>Copyright</b> da <b>Aplicação</b>
 - ✔️ Adicionar <b>EditorConfig</b>, <b>Eslint</b> e <b>Prettier</b> para padronizar o código da aplicação / [Dica do DIEGO3G](https://www.youtube.com/watch?v=TI4v4Y8yRjw)
-- ❌ Adicionar animações nos botões, inputs e loading dos formulários / [Dica do ARTHURPC03](https://github.com/ARTHURPC03/Be-The-Hero)
+- ✔️ Adicionar animações nos botões, inputs e loading dos formulários / [Dica do ARTHURPC03](https://github.com/ARTHURPC03/Be-The-Hero)
 - ❌ Adicionar testes de integração e unitários ao projeto utilizando [JEST](https://jestjs.io/docs/en/getting-started) e [SQLITE](https://www.sqlite.org/docs.html)
 - ❌ Adicionar <b>Login Social</b> na aplicação, utilizando mídias socias como <b>Google</b>, <b>Facebook</b> e <b>GitHub</b>
 - ❌ Alterar a animação da navegação do mobile para deixá-la igual a de <b>IOS</b> / [Dica do ARTHURPC03](https://www.youtube.com/watch?v=dYRHe2Kkq04)
