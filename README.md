@@ -249,7 +249,7 @@ $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 
 ✌ Este projeto está sobre [Licença MIT](https://choosealicense.com/licenses/mit/) e foi criado por [Luiz Marcelo Schmitt](https://www.linkedin.com/in/devluma/)
 
-# 🙌 Apoiadores
+# 🙌 Apoio
 
 <div align="left">
   <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
