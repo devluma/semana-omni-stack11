@@ -108,6 +108,82 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
   </tbody>
 </table>
 
+### 🔖 Layout
+
+O layout da aplicação está no [Figma](#Layout).
+
+### :information_source: Como usar
+
+Para clonar e executar este aplicativo, você precisará do [Git](https://git-scm.com), [NodeJS](https://nodejs.org/en/docs/) + [Yarn](https://yarnpkg.com/) instalados no seu computador.
+
+#### 💻 Executar na Linha de Comando
+
+```bash
+# Clone o repositório no diretório desejado
+$ git clone https://github.com/devluma/semana-omni-stack11.git
+
+# Vá para o diretório onde o projeto foi clonado
+$ cd semana-omni-stack11/htdocs/
+
+# Abrir o projeto no VS Code
+$ code .
+```
+
+#### 💻 Executar a API
+
+```bash
+# Vá para o diretório
+$ cd semana-omni-stack11/htdocs/backend/
+
+# Instalar as dependências do node_modules
+$ yarn install
+
+# Execute as migrações para criar o banco de dados
+$ yarn knex:migrate
+
+# Execute o comando para popular algumas tabelas
+$ yarn knex:seed
+
+# Inicie o servidor
+$ yarn dev
+
+# Abra o seu navegador ou o Insomnia e aponte para http://localhost:3000/api/
+```
+
+#### 💻 Executar o APP Front-end
+
+```bash
+# Vá para o diretório
+$ cd semana-omni-stack11/htdocs/frontent/
+
+# Instalar as dependências do node_modules
+$ yarn install
+
+# Execute o projeto
+$ yarn start
+
+# Abra o seu navegador no endereço http://localhost:3001/
+```
+
+#### 💻 Executar o APP Mobile
+
+```bash
+# Vá para o diretório
+$ cd semana-omni-stack11/htdocs/mobile/
+
+# Instalar as dependências do node_modules
+$ yarn install
+
+# Execute o projeto
+$ yarn start
+
+# O Expo será aberto, e basta digitalizar o qrcode no terminal ou abrir na página da exposição
+
+# Se você tiver algum problemas com os fontes do projeto, execute:
+$ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+```
+
 # 🚀 Tecnologia(s) Utilizada(s) no Projeto
 
 <table>
