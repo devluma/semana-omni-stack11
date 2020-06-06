@@ -232,7 +232,7 @@ $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
   
 </table>
 
-# 🔌 Links das Bibliografias Utilizadas
+# 🔌 Link(s) da(s) Bibliografia(s) Utilizada(s)
 
 - [React e React Native da Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg/playlists)
 - [Configurações do VS Code do DIEGO3G](https://www.youtube.com/watch?v=TI4v4Y8yRjw/)
