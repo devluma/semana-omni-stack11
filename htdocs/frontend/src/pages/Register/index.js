@@ -9,6 +9,8 @@ import './styles.css';
 
 import logoImg from '../../assets/logo.svg';
 
+import Footer from '../../components/Footer';
+
 export default function Register() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -56,7 +58,7 @@ export default function Register() {
           </Link>
         </section>
 
-        <form onSubmit={handleRegister}>
+        <form onSubmit={handleRegister} autoComplete="none">
           <input
             type="text"
             className="animation animation-effect-input register-name"
@@ -64,6 +66,7 @@ export default function Register() {
             title="Este campo é obrigatório!"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            autoComplete="none"
             required="required"
           />
           <input
@@ -72,6 +75,7 @@ export default function Register() {
             placeholder="E-mail"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            autoComplete="none"
             required="required"
           />
           <input
@@ -80,6 +84,7 @@ export default function Register() {
             placeholder="Whatsapp da ONG"
             value={whatsapp}
             onChange={(e) => setWhatsapp(e.target.value)}
+            autoComplete="none"
             required="required"
           />
 
@@ -90,6 +95,7 @@ export default function Register() {
               placeholder="Cidade"
               value={city}
               onChange={(e) => setCity(e.target.value)}
+              autoComplete="none"
               required="required"
             />
             <input
@@ -99,6 +105,7 @@ export default function Register() {
               style={{ width: 80 }}
               value={uf}
               onChange={(e) => setUf(e.target.value)}
+              autoComplete="none"
               required="required"
             />
           </div>
@@ -109,7 +116,7 @@ export default function Register() {
         </form>
       </div>
 
-      <footer>Copyright Sysdomotic.cc 2020.</footer>
+      <Footer />
     </div>
   );
 }

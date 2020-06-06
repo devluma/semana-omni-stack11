@@ -62,7 +62,7 @@ export default function Profile() {
         <img src={logoImg} alt="Be The Hero" />
         <span>
           Bem vindo(a),{' '}
-          <Link to="/ongs/edit" className="strong-link">
+          <Link to={`/ongs/edit/${ongId}`} className="strong-link">
             {ongName}
           </Link>
         </span>
@@ -80,36 +80,40 @@ export default function Profile() {
         </button>
       </header>
 
-      <h1>Casos cadastrados</h1>
+      {incidents.length > 0 ? <h1>Casos cadastrados</h1> : null}
 
       <ul>
-        {incidents.map((incident) => (
-          <li key={incident.id}>
-            <strong>CASO:</strong>
-            <p>{incident.title}</p>
+        {incidents.length > 0 ? (
+          incidents.map((incident) => (
+            <li key={incident.id}>
+              <strong>CASO:</strong>
+              <p>{incident.title}</p>
 
-            <strong>DESCRIÇÂO:</strong>
-            <p>{incident.description}</p>
+              <strong>DESCRIÇÂO:</strong>
+              <p>{incident.description}</p>
 
-            <strong>VALOR:</strong>
-            <p>
-              {Intl.NumberFormat('pt-BR', {
-                style: 'currency',
-                currency: 'BRL',
-              }).format(incident.value)}
-            </p>
+              <strong>VALOR:</strong>
+              <p>
+                {Intl.NumberFormat('pt-BR', {
+                  style: 'currency',
+                  currency: 'BRL',
+                }).format(incident.value)}
+              </p>
 
-            <div className="profile-group-buttons">
-              <button onClick={() => handleEditIncident(incident.id)} type="button">
-                <FiEdit2 size={20} color="#7159c1" />
-              </button>
+              <div className="profile-group-buttons">
+                <button onClick={() => handleEditIncident(incident.id)} type="button">
+                  <FiEdit2 size={20} color="#7159c1" />
+                </button>
 
-              <button onClick={() => handleDeleteIncident(incident.id)} type="button">
-                <FiTrash2 size={20} color="#E02041" />
-              </button>
-            </div>
-          </li>
-        ))}
+                <button onClick={() => handleDeleteIncident(incident.id)} type="button">
+                  <FiTrash2 size={20} color="#E02041" />
+                </button>
+              </div>
+            </li>
+          ))
+        ) : (
+          <h2>Nenhum caso foi registrado.</h2>
+        )}
       </ul>
 
       <footer>Copyright Sysdomotic.cc 2020.</footer>

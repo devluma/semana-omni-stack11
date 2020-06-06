@@ -57,6 +57,12 @@
   margin-bottom: 24px;
 }
 
+.profile-container h2 {
+  font-weight: lighter;
+  margin-top: 50px;
+  margin-bottom: 24px;
+}
+
 .profile-container ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

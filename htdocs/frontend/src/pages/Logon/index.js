@@ -34,7 +34,7 @@ export default function Logon() {
     <div className="logon-container">
       <section className="form">
         <img src={logoImg} alt="Be The Hero" className="logo-img" />
-        <form onSubmit={handleLogin}>
+        <form onSubmit={handleLogin} autoComplete="none">
           <h1>Faça seu logon</h1>
 
           <input
@@ -43,6 +43,7 @@ export default function Logon() {
             placeholder="Sua ID"
             value={id}
             onChange={(e) => setId(e.target.value)}
+            autoComplete="none"
             required="required"
           />
           <input
@@ -51,6 +52,7 @@ export default function Logon() {
             placeholder="Seu E-mail"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            autoComplete="none"
             required="required"
           />
           <button type="submit" className="animation animation-effect-button">
