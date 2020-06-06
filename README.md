@@ -114,7 +114,7 @@ O layout da aplicação está no [Figma](#Layout).
 
 ### :information_source: Como usar
 
-Para clonar e executar este aplicativo, você precisará do [Git](https://git-scm.com), [NodeJS](https://nodejs.org/en/docs/) + [Yarn](https://yarnpkg.com/) instalados no seu computador.
+Para clonar e executar este projeto, você precisará do [Git](https://git-scm.com), [NodeJS](https://nodejs.org/en/docs/) + [Yarn](https://yarnpkg.com/) instalados no seu computador.
 
 #### 💻 Executar na Linha de Comando
 
