@@ -4,7 +4,7 @@
 
 # Projeto `Be The Hero`
 
-Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem utilizada no desafio da Semana OmniStack 11 da [Rocketseat](https://rocketseat.com.br/)
+Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem utilizada no desafio da Semana OmniStack 11 da [Rocketseat](https://rocketseat.com.br/).
 
 # Desafio proposto!
 
@@ -18,10 +18,10 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 - ❌ Adicionar uma rotina para editar as <b>ONGS</b> e os <b>CASOS</b> já cadastrados
 - ✔️ Adicionar um rodapé com as informações de <b>Copyright</b> da <b>Aplicação</b>
 - ✔️ Adicionar <b>EditorConfig</b>, <b>Eslint</b> e <b>Prettier</b> para padronizar o código da aplicação / [Dica do DIEGO3G](https://www.youtube.com/watch?v=TI4v4Y8yRjw)
-- ✔️ Adicionar animações nos botões, inputs e loading dos formulários / [Dica do ARTHURPC03](https://github.com/ARTHURPC03/Be-The-Hero)
+- ✔️ Adicionar animações nos botões, inputs e loading dos formulários / [Animações com CSS3](https://github.com/devluma/animations-css3-examples/)
 - ❌ Adicionar testes de integração e unitários ao projeto utilizando [JEST](https://jestjs.io/docs/en/getting-started) e [SQLITE](https://www.sqlite.org/docs.html)
 - ❌ Adicionar <b>Login Social</b> na aplicação, utilizando mídias socias como <b>Google</b>, <b>Facebook</b> e <b>GitHub</b>
-- ❌ Alterar a animação da navegação do mobile para deixá-la igual a de <b>IOS</b> / [Dica do ARTHURPC03](https://www.youtube.com/watch?v=dYRHe2Kkq04)
+- ✔️ Alterar a animação da navegação do mobile para deixá-la igual a de <b>IOS</b> / [Dica do ARTHURPC03](https://github.com/ARTHURPC03/Be-The-Hero/)
 - ✔️ Alterar o <b>HEADER</b> da aplicação para ficar com um efeito de <b>Scroll-Over</b> ao rolar a página
 - ❌ Ajustar o aplicativo web para aceitar responsividade
 - ❌ Utilizar [Styled-Components](https://styled-components.com/) para estilizar as telas da aplicação
@@ -232,9 +232,17 @@ $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
   
 </table>
 
+# 🔌 Links das Bibliografias Utilizadas
+
+- [React e React Native da Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg/playlists)
+- [Configurações do VS Code do DIEGO3G](https://www.youtube.com/watch?v=TI4v4Y8yRjw/)
+- [Testes no NodeJS aplicando TDD com Jest do DIEGO3G](https://www.youtube.com/watch?v=2G_mWfG0DZE&t/)
+- [Template Dark utilizando Theme Switcher do ARTHURPC03](https://www.youtube.com/watch?v=dYRHe2Kkq04&t/)
+- [Animações com CSS3 do Ricardo Sanches](https://www.youtube.com/watch?v=_w57bWIPZKE/)
+
 # 👪 Contribuições
 
-😉 Contribuições são bem-vindas! <br />
+😉 Contribuições são <b>Bem-Vindas</b>! <br />
 🌈 Sinta-se livre para abrir uma <b>ISSUE</b> ou um <b>PULL REQUEST</b> e participar do projeto como você desejar.
 
 # 📜 Direitos e Licença
