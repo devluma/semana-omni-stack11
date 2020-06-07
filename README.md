@@ -274,8 +274,8 @@ $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 
 ###### <div align="right">[Voltar](#projeto-be-the-hero) ↺</div>
 
-[version-image]: https://img.shields.io/badge/version-0.1.0-brightgreen?style=flat-square
+[version-image]: https://img.shields.io/badge/version-0.1.1-brightgreen?style=flat-square
 [version-url]: https://github.com/devluma/semana-omni-stack11/releases
-[version-download-image]: https://img.shields.io/badge/download-0.1.0-blue?style=flat-square
+[version-download-image]: https://img.shields.io/badge/download-0.1.1-blue?style=flat-square
 [version-download]: https://github.com/devluma/semana-omni-stack11/archive/master.zip
 [plataform-image]: https://img.shields.io/badge/plataform-API%20%7C%20WEB%20%7C%20MOBILE-lightgrey
