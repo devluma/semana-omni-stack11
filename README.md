@@ -21,8 +21,8 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 - ✔️ Adicionar um componente <b>HEADER</b> na aplicação, com um efeito de <b>Scroll-Over</b> ao rolar a página
 - ✔️ Adicionar um componente <b>FOOTER</b> na aplicação, com as informações de <b>Copyright</b> do projeto
 - ❌ Adicionar testes de integração e unitários ao projeto utilizando [JEST](https://jestjs.io/docs/en/getting-started) e [SQLITE](https://www.sqlite.org/docs.html)
-- ❌ Adicionar <b>Login Social</b> na aplicação, utilizando mídias socias como <b>Google</b>, <b>Facebook</b> e <b>GitHub</b>
-- ❌ Alterar a animação da navegação do mobile para deixá-la igual a de <b>IOS</b> / [Dica do ARTHURPC03](https://github.com/ARTHURPC03/Be-The-Hero/)
+- ✔️ Adicionar botões de <b>Login Social</b> na aplicação, utilizando o <b>Google</b>, <b>Facebook</b> e <b>GitHub</b>
+- ✔️ Alterar a animação da navegação do mobile para deixá-la igual a de <b>IOS</b> / [Dica do ARTHURPC03](https://github.com/ARTHURPC03/Be-The-Hero/)
 - ❌ Ajustar o aplicativo web para aceitar responsividade
 - ❌ Utilizar [Styled-Components](https://styled-components.com/) para estilizar as telas da aplicação
 - ❌ Utilizar [@typescript](https://www.typescriptlang.org/) como superset no JavaScript
