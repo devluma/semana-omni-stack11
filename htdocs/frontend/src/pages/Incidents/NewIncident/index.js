@@ -10,6 +10,8 @@ import '../styles.css';
 
 import logoImg from '../../../assets/logo.svg';
 
+import Footer from '../../../components/Footer';
+
 export default function NewIncident() {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
@@ -60,11 +62,12 @@ export default function NewIncident() {
           </Link>
         </section>
 
-        <form onSubmit={handleNewIncident}>
+        <form onSubmit={handleNewIncident} autoComplete="none">
           <input
             type="text"
             className="animation animation-effect-input incidents-title"
             placeholder="Titulo do caso"
+            autoComplete="none"
             required="required"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
@@ -72,6 +75,7 @@ export default function NewIncident() {
           <textarea
             className="animation animation-effect-input incidents-description"
             placeholder="Descrição do caso"
+            autoComplete="none"
             required="required"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
@@ -80,6 +84,7 @@ export default function NewIncident() {
             type="text"
             className="animation animation-effect-input incidents-value"
             placeholder="Valor em reais"
+            autoComplete="none"
             required="required"
             value={value}
             onChange={(e) => setValue(e.target.value)}
@@ -91,7 +96,7 @@ export default function NewIncident() {
         </form>
       </div>
 
-      <footer>Copyright Sysdomotic.cc 2020.</footer>
+      <Footer />
     </div>
   );
 }

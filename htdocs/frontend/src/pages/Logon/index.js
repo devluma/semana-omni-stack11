@@ -10,6 +10,10 @@ import './styles.css';
 import logoImg from '../../assets/logo.svg';
 import heroesImg from '../../assets/heroes.png';
 
+import logoGoogleImg from '../../assets/google.svg';
+import logoFacebookImg from '../../assets/facebook.svg';
+import logoGitHubImg from '../../assets/github.svg';
+
 export default function Logon() {
   const [id, setId] = useState('');
   const [email, setEmail] = useState('');
@@ -34,7 +38,7 @@ export default function Logon() {
     <div className="logon-container">
       <section className="form">
         <img src={logoImg} alt="Be The Hero" className="logo-img" />
-        <form onSubmit={handleLogin}>
+        <form onSubmit={handleLogin} autoComplete="none">
           <h1>Faça seu logon</h1>
 
           <input
@@ -43,6 +47,7 @@ export default function Logon() {
             placeholder="Sua ID"
             value={id}
             onChange={(e) => setId(e.target.value)}
+            autoComplete="none"
             required="required"
           />
           <input
@@ -51,11 +56,24 @@ export default function Logon() {
             placeholder="Seu E-mail"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            autoComplete="none"
             required="required"
           />
           <button type="submit" className="animation animation-effect-button">
             Entrar
           </button>
+
+          <div className="button-group">
+            <button type="button" className="animation animation-effect-social-button">
+              <img src={logoGoogleImg} alt="Google Icon" width="32" height="32" />
+            </button>
+            <button type="button" className="animation animation-effect-social-button">
+              <img src={logoFacebookImg} alt="Facebook Icon" width="32" height="32" />
+            </button>
+            <button type="button" className="animation animation-effect-social-button">
+              <img src={logoGitHubImg} alt="GitHub Icon" width="32" height="32" />
+            </button>
+          </div>
 
           <Link to="/register" className="link-href">
             <FiLogIn size={16} color="#E02041" />

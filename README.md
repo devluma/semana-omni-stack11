@@ -4,7 +4,7 @@
 
 # Projeto `Be The Hero`
 
-Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem utilizada no desafio da Semana OmniStack 11 da [Rocketseat](https://rocketseat.com.br/)
+Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem utilizada no desafio da Semana OmniStack 11 da [Rocketseat](https://rocketseat.com.br/).
 
 # Desafio proposto!
 
@@ -15,14 +15,14 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 - ❌ Criar um template Dark utilizando Theme Switcher / [CSS-TRICKS](https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/)
 - ✔️ Criar micro-serviços no docker para facilitar a criação dos ambientes de desenvolvimento / [DEV-DOCKER](https://github.com/devluma/dev-docker)
 - ✔️ Adicionar os pacotes de cada plataforma como sub-módulos do <b>GIT</b> / [GIT-SUB-MODULES](https://git-scm.com/docs/git-submodule/)
-- ❌ Adicionar uma rotina para editar as <b>ONGS</b> e os <b>CASOS</b> já cadastrados
-- ✔️ Adicionar um rodapé com as informações de <b>Copyright</b> da <b>Aplicação</b>
 - ✔️ Adicionar <b>EditorConfig</b>, <b>Eslint</b> e <b>Prettier</b> para padronizar o código da aplicação / [Dica do DIEGO3G](https://www.youtube.com/watch?v=TI4v4Y8yRjw)
-- ✔️ Adicionar animações nos botões, inputs e loading dos formulários / [Dica do ARTHURPC03](https://github.com/ARTHURPC03/Be-The-Hero)
+- ✔️ Adicionar animações nos botões, inputs e loading dos formulários / [Animações com CSS3](https://github.com/devluma/animations-css3-examples/)
+- ✔️ Adicionar uma rotina para editar as <b>ONGS</b> e os <b>CASOS</b> já cadastrados
+- ✔️ Adicionar um componente <b>HEADER</b> na aplicação, com um efeito de <b>Scroll-Over</b> ao rolar a página
+- ✔️ Adicionar um componente <b>FOOTER</b> na aplicação, com as informações de <b>Copyright</b> do projeto
 - ❌ Adicionar testes de integração e unitários ao projeto utilizando [JEST](https://jestjs.io/docs/en/getting-started) e [SQLITE](https://www.sqlite.org/docs.html)
-- ❌ Adicionar <b>Login Social</b> na aplicação, utilizando mídias socias como <b>Google</b>, <b>Facebook</b> e <b>GitHub</b>
-- ❌ Alterar a animação da navegação do mobile para deixá-la igual a de <b>IOS</b> / [Dica do ARTHURPC03](https://www.youtube.com/watch?v=dYRHe2Kkq04)
-- ✔️ Alterar o <b>HEADER</b> da aplicação para ficar com um efeito de <b>Scroll-Over</b> ao rolar a página
+- ✔️ Adicionar botões de <b>Login Social</b> na aplicação, utilizando o <b>Google</b>, <b>Facebook</b> e <b>GitHub</b>
+- ✔️ Alterar a animação da navegação do mobile para deixá-la igual a de <b>IOS</b> / [Dica do ARTHURPC03](https://github.com/ARTHURPC03/Be-The-Hero/)
 - ❌ Ajustar o aplicativo web para aceitar responsividade
 - ❌ Utilizar [Styled-Components](https://styled-components.com/) para estilizar as telas da aplicação
 - ❌ Utilizar [@typescript](https://www.typescriptlang.org/) como superset no JavaScript
@@ -108,6 +108,82 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
   </tbody>
 </table>
 
+### 🔖 Layout
+
+O layout da aplicação está no [Figma](#Layout).
+
+### :information_source: Como usar
+
+Para clonar e executar este projeto, você precisará do [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [NodeJS](https://nodejs.org/en/docs/) + [Yarn](https://yarnpkg.com/) instalados no seu computador.
+
+#### 💻 Executar na Linha de Comando
+
+```bash
+# Clone o repositório no diretório desejado
+$ git clone https://github.com/devluma/semana-omni-stack11.git
+
+# Vá para o diretório onde o projeto foi clonado
+$ cd semana-omni-stack11/htdocs/
+
+# Abrir o projeto no VS Code
+$ code .
+```
+
+#### 💻 Executar a API
+
+```bash
+# Vá para o diretório
+$ cd semana-omni-stack11/htdocs/backend/
+
+# Instalar as dependências do node_modules
+$ yarn install
+
+# Execute as migrações para criar o banco de dados
+$ yarn knex:migrate
+
+# Execute o comando para popular algumas tabelas
+$ yarn knex:seed
+
+# Inicie o servidor
+$ yarn dev
+
+# Abra o seu navegador ou o Insomnia e aponte para http://localhost:3000/api/
+```
+
+#### 💻 Executar o APP Front-end
+
+```bash
+# Vá para o diretório
+$ cd semana-omni-stack11/htdocs/frontent/
+
+# Instalar as dependências do node_modules
+$ yarn install
+
+# Execute o projeto
+$ yarn start
+
+# Abra o seu navegador no endereço http://localhost:3001/
+```
+
+#### 💻 Executar o APP Mobile
+
+```bash
+# Vá para o diretório
+$ cd semana-omni-stack11/htdocs/mobile/
+
+# Instalar as dependências do node_modules
+$ yarn install
+
+# Execute o projeto
+$ yarn start
+
+# O Expo será aberto, e basta digitalizar o qrcode no terminal ou abrir na página da exposição
+
+# Se você tiver algum problemas com os fontes do projeto, execute:
+$ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+```
+
 # 🚀 Tecnologia(s) Utilizada(s) no Projeto
 
 <table>
@@ -156,16 +232,24 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
   
 </table>
 
+# 🔌 Link(s) da(s) Bibliografia(s) Utilizada(s)
+
+- [React e React Native da Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg/playlists)
+- [Configurações do VS Code do DIEGO3G](https://www.youtube.com/watch?v=TI4v4Y8yRjw/)
+- [Testes no NodeJS aplicando TDD com Jest do DIEGO3G](https://www.youtube.com/watch?v=2G_mWfG0DZE&t/)
+- [Template Dark utilizando Theme Switcher do ARTHURPC03](https://www.youtube.com/watch?v=dYRHe2Kkq04&t/)
+- [Animações com CSS3 do Ricardo Sanches](https://www.youtube.com/watch?v=_w57bWIPZKE/)
+
 # 👪 Contribuições
 
-😉 Contribuições são bem-vindas! <br />
+😉 Contribuições são <b>Bem-Vindas</b>! <br />
 🌈 Sinta-se livre para abrir uma <b>ISSUE</b> ou um <b>PULL REQUEST</b> e participar do projeto como você desejar.
 
 # 📜 Direitos e Licença
 
 ✌ Este projeto está sobre [Licença MIT](https://choosealicense.com/licenses/mit/) e foi criado por [Luiz Marcelo Schmitt](https://www.linkedin.com/in/devluma/)
 
-# 🙌 Apoiadores
+# 🙌 Apoio
 
 <div align="left">
   <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>

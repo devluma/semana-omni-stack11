@@ -10,6 +10,8 @@ import '../styles.css';
 
 import logoImg from '../../../assets/logo.svg';
 
+import Footer from '../../../components/Footer';
+
 export default function EditIncident() {
   const [id, setId] = useState('');
   const [title, setTitle] = useState('');
@@ -53,9 +55,7 @@ export default function EditIncident() {
       <div className="content">
         <section className="content-section">
           <img src={logoImg} alt="Be The Hero" className="logo-img" />
-          <h1>
-            Editar o caso <span>DELTA ALFA</span>
-          </h1>
+          <h1>Editar CASO</h1>
           <p>Descreva o caso detalhadamente para encontrar um herói para resolver isso.</p>
 
           <Link to="/profiles" className="link-href">
@@ -64,11 +64,12 @@ export default function EditIncident() {
           </Link>
         </section>
 
-        <form onSubmit={handleEditIncident}>
+        <form onSubmit={handleEditIncident} autoComplete="none">
           <input
             type="text"
             className="animation animation-effect-input incidents-title"
             placeholder="Titulo do caso"
+            autoComplete="none"
             required="required"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
@@ -76,6 +77,7 @@ export default function EditIncident() {
           <textarea
             className="animation animation-effect-input incidents-description"
             placeholder="Descrição do caso"
+            autoComplete="none"
             required="required"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
@@ -84,6 +86,7 @@ export default function EditIncident() {
             type="text"
             className="animation animation-effect-input incidents-value"
             placeholder="Valor em reais"
+            autoComplete="none"
             required="required"
             value={value}
             onChange={(e) => setValue(e.target.value)}
@@ -95,7 +98,7 @@ export default function EditIncident() {
         </form>
       </div>
 
-      <footer>Copyright Sysdomotic.cc 2020.</footer>
+      <Footer />
     </div>
   );
 }
