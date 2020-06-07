@@ -13,7 +13,7 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 ## Além do desafio!
 
 - ❌ Criar um template Dark utilizando Theme Switcher / [CSS-TRICKS](https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/)
-- ✔️ Criar micro-serviços no docker para facilitar a criação dos ambientes de desenvolvimento / [DEV-DOCKER](https://github.com/devluma/dev-docker)
+- ✔️ Criar a Stack ([NodeJS](https://nodejs.org/en/docs/) e [SqLite](https://www.sqlite.org/docs.html/)) no docker para facilitar a criação dos ambientes de desenvolvimento / [DEV-DOCKER](https://github.com/devluma/dev-docker)
 - ✔️ Adicionar os pacotes de cada plataforma como sub-módulos do <b>GIT</b> / [GIT-SUB-MODULES](https://git-scm.com/docs/git-submodule/)
 - ✔️ Adicionar <b>EditorConfig</b>, <b>Eslint</b> e <b>Prettier</b> para padronizar o código da aplicação / [Dica do DIEGO3G](https://www.youtube.com/watch?v=TI4v4Y8yRjw)
 - ✔️ Adicionar animações nos botões, inputs e loading dos formulários / [Animações com CSS3](https://github.com/devluma/animations-css3-examples/)
@@ -147,7 +147,7 @@ $ yarn knex:seed
 # Inicie o servidor
 $ yarn dev
 
-# Abra o seu navegador ou o Insomnia e aponte para http://localhost:3000/api/
+# Abra o seu navegador ou o Insomnia e aponte para http://localhost:3001/api/
 ```
 
 #### 💻 Executar o APP Front-end
@@ -162,7 +162,7 @@ $ yarn install
 # Execute o projeto
 $ yarn start
 
-# Abra o seu navegador no endereço http://localhost:3001/
+# Abra o seu navegador no endereço http://localhost:3000/
 ```
 
 #### 💻 Executar o APP Mobile
@@ -182,6 +182,21 @@ $ yarn start
 # Se você tiver algum problemas com os fontes do projeto, execute:
 $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 
+```
+
+#### 💻 Executando com o DOCKER
+
+```bash
+# Vá para o diretório
+$ cd semana-omni-stack11/docker/
+
+# Execute a stack do projeto
+$ docker-compose up nodejs sqlite3 -d --build
+
+# Abra o seu navegador no(s) endereço(s):
+# ---
+# WEB: http://app.local
+# API: http://api.local
 ```
 
 # 🚀 Tecnologia(s) Utilizada(s) no Projeto
@@ -274,8 +289,8 @@ $ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 
 ###### <div align="right">[Voltar](#projeto-be-the-hero) ↺</div>
 
-[version-image]: https://img.shields.io/badge/version-0.1.1-brightgreen?style=flat-square
+[version-image]: https://img.shields.io/badge/version-0.1.2-brightgreen?style=flat-square
 [version-url]: https://github.com/devluma/semana-omni-stack11/releases
-[version-download-image]: https://img.shields.io/badge/download-0.1.1-blue?style=flat-square
+[version-download-image]: https://img.shields.io/badge/download-0.1.2-blue?style=flat-square
 [version-download]: https://github.com/devluma/semana-omni-stack11/archive/master.zip
 [plataform-image]: https://img.shields.io/badge/plataform-API%20%7C%20WEB%20%7C%20MOBILE-lightgrey
