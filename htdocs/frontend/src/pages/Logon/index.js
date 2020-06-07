@@ -10,6 +10,10 @@ import './styles.css';
 import logoImg from '../../assets/logo.svg';
 import heroesImg from '../../assets/heroes.png';
 
+import logoGoogleImg from '../../assets/google.svg';
+import logoFacebookImg from '../../assets/facebook.svg';
+import logoGitHubImg from '../../assets/github.svg';
+
 export default function Logon() {
   const [id, setId] = useState('');
   const [email, setEmail] = useState('');
@@ -58,6 +62,18 @@ export default function Logon() {
           <button type="submit" className="animation animation-effect-button">
             Entrar
           </button>
+
+          <div className="button-group">
+            <button type="button" className="animation animation-effect-social-button">
+              <img src={logoGoogleImg} alt="Google Icon" width="32" height="32" />
+            </button>
+            <button type="button" className="animation animation-effect-social-button">
+              <img src={logoFacebookImg} alt="Facebook Icon" width="32" height="32" />
+            </button>
+            <button type="button" className="animation animation-effect-social-button">
+              <img src={logoGitHubImg} alt="GitHub Icon" width="32" height="32" />
+            </button>
+          </div>
 
           <Link to="/register" className="link-href">
             <FiLogIn size={16} color="#E02041" />
