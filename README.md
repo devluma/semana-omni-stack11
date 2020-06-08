@@ -192,7 +192,10 @@ $ yarn start
 # O Expo será aberto, e basta digitalizar o qrcode no terminal ou abrir na página da exposição
 
 # Se você tiver algum problemas com os fontes do projeto, execute:
-$ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+#$ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+# Dependências do Expo
+#$ expo install expo-mail-composer expo-constants @expo/vector-icons
 
 ```
 
