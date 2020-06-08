@@ -8,8 +8,9 @@ module.exports = {
       const [count] = await connection('incidents').count();
 
       const incidents = await connection('incidents')
-        .join('ongs', 'ongs_id', '=', 'incidents.ongs_id')
+        .join('ongs', 'ongs.id', '=', 'incidents.ongs_id')
         .select(['incidents.*', 'ongs.name', 'ongs.email', 'ongs.whatsapp', 'ongs.city', 'ongs.uf'])
+        .groupBy('incidents.id')
         .limit(limit)
         .offset((page - 1) * limit);
 
