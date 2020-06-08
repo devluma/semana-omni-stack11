@@ -149,7 +149,7 @@ $ yarn knex:migrate
 $ yarn knex:seed
 
 # Inicie o servidor
-$ yarn start
+$ yarn dev
 
 # Abra o seu navegador ou o Insomnia e aponte para http://localhost:3001/api/
 ```
