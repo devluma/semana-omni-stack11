@@ -138,6 +138,10 @@ $ cd semana-omni-stack11/htdocs/backend/
 # Instalar as dependências do node_modules
 $ yarn install
 
+# Dependências de desenvolvimento
+# $ yarn add babel-eslint @babel/core prettier -D
+# $ yarn add eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks -D
+
 # Execute as migrações para criar o banco de dados
 $ yarn knex:migrate
 
@@ -159,6 +163,10 @@ $ cd semana-omni-stack11/htdocs/frontent/
 # Instalar as dependências do node_modules
 $ yarn install
 
+# Dependências de desenvolvimento
+# $ yarn add babel-eslint @babel/core prettier -D
+# $ yarn add eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks -D
+
 # Execute o projeto
 $ yarn start
 
@@ -173,6 +181,10 @@ $ cd semana-omni-stack11/htdocs/mobile/
 
 # Instalar as dependências do node_modules
 $ yarn install
+
+# Dependências de desenvolvimento
+# $ yarn add babel-eslint babel-preset-expo @babel/core prettier -D
+# $ yarn add eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks -D
 
 # Execute o projeto
 $ yarn start
