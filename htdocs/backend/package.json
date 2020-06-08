@@ -4,8 +4,12 @@
   "description": "Study application to week omnistack11",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js -w"
+    "dev": "nodemon src/server.js -w",
+    "test": "cross-env NODE_ENV=test jest",
+    "start": "node src/server.js",
+    "knex:migrate": "knex migrate:latest --knexfile knexfile.js",
+    "knex:seed": "knex seed:run --knexfile knexfile.js",
+    "knex:rollback": "knex migrate:rollback"
   },
   "keywords": [],
   "author": "Sysdomotic.com.br",
