@@ -14,7 +14,7 @@ module.exports = {
         .limit(limit)
         .offset((page - 1) * limit);
 
-      response.header('X-Total_count', count['count(*)']);
+      response.header('X-Total-count', count['count(*)']);
 
       return response.json(incidents);
     } catch (err) {
