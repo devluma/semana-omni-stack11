@@ -1,4 +1,4 @@
-const connection = require('../../configs/database');
+const connection = require('../../database/connection');
 
 module.exports = {
   async login(request, response) {
@@ -7,7 +7,7 @@ module.exports = {
       const ong = await connection('ongs').where('id', id).select('name').first();
 
       if (!ong) {
-        throw 'Auth error!';
+        throw new Error('Auth error!');
       }
 
       return response.json(ong);
