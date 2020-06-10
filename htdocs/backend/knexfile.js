@@ -14,6 +14,17 @@ module.exports = {
     debug: process.env.APP_DEBUG || false,
   },
 
+  test: {
+    client: 'sqlite3',
+    connection: {
+      filename: './database/test.sqlite',
+    },
+    migrations: {
+      directory: './database/migrations',
+    },
+    useNullAsDefault: true,
+  },
+
   staging: {
     client: process.env.DB_CLIENT,
     connection: {
