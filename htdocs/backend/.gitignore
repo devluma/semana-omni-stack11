@@ -9,6 +9,7 @@
 # production
 /build
 /database/db.sqlite
+/database/test.sqlite
 
 # misc
 .DS_Store
