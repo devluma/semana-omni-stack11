@@ -1,5 +1,8 @@
 require('dotenv').config();
 
+const { APP_DEBUG } = process.env;
+const debug = JSON.parse(APP_DEBUG) || false;
+
 module.exports = {
   development: {
     client: 'sqlite3',
@@ -10,8 +13,8 @@ module.exports = {
       directory: './database/migrations',
     },
     useNullAsDefault: true,
-    asyncStackTraces: process.env.APP_DEBUG || false,
-    debug: process.env.APP_DEBUG || false,
+    asyncStackTraces: debug || false,
+    debug: debug || false,
   },
 
   test: {
