@@ -85,7 +85,7 @@ module.exports = {
   // notify: false,
 
   // An enum that specifies notification mode. Requires { notify: true }
-  // notifyMode: "failure-change",
+  // notifyMode: 'failure-change',
 
   // A preset that is used as a base for Jest's configuration
   // preset: undefined,
@@ -109,7 +109,7 @@ module.exports = {
   // restoreMocks: false,
 
   // The root directory that Jest should scan for tests and modules within
-  // rootDir: undefined,
+  rootDir: '__tests__',
 
   // A list of paths to directories that Jest should use to search for files in
   // roots: [
