@@ -2,6 +2,52 @@
     <img alt="Be The Hero" src="github/logo-be-the-hero.svg" width="200px" />
 </h1>
 
+<p align="center">
+  <img alt="Plataform" src="https://img.shields.io/badge/plataform-API%20%7C%20WEB%20%7C%20MOBILE-lightgrey">
+  <img alt="Languagues" src="https://img.shields.io/github/languages/count/devluma/semana-omni-stack11">
+  <img alt="Top Languague" src="https://img.shields.io/github/languages/top/devluma/semana-omni-stack11">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/devluma/semana-omni-stack11">
+  <img alt="License" src="https://img.shields.io/github/license/devluma/semana-omni-stack11">
+</p>
+
+<p align="center">
+  <a href="https://github.com/devluma/semana-omni-stack11/releases">
+    <img alt="Version" src="https://img.shields.io/github/package-json/v/devluma/semana-omni-stack11">
+  </a>
+  <a href="https://github.com/devluma/semana-omni-stack11/commits/master">
+    <img alt="Last commit date" src="https://img.shields.io/github/last-commit/devluma/semana-omni-stack11">
+  </a>
+  <a href="https://github.com/devluma/semana-omni-stack11/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/devluma/semana-omni-stack11">
+  </a>
+  <a href="https://github.com/devluma/semana-omni-stack11/archive/master.zip">
+    <img alt="Downloads" src="https://img.shields.io/github/downloads/devluma/semana-omni-stack11/total">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/devluma" target="_blank">
+    <img alt="Made by Devluma" src="https://img.shields.io/badge/made%20by-Devluma-informational">
+  </a>
+  <a href="https://github.com/devluma" target="_blank" >
+    <img alt="Github - Devluma" src="https://img.shields.io/badge/Github--%23F8952D?style=social&logo=github">
+  </a>
+  <a href="https://www.linkedin.com/in/devluma/" target="_blank" >
+    <img alt="Linkedin - Devluma" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+  </a>
+  <a href="mailto:luiz.schmitt@sysdomotic.com.br" target="_blank" >
+    <img alt="Email - Devluma" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#desafio-proposto">Desafio</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#além-do-desafio">Implementações</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-descrição-do-projeto">Descrição do Projeto</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#information_source-como-usar">Como Usar</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-contribuições">Contribuições</a>&nbsp;&nbsp;
+</p>
+
 # Projeto `Be The Hero`
 
 Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem utilizada no desafio da Semana OmniStack 11 da [Rocketseat](https://rocketseat.com.br/).
@@ -23,7 +69,7 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 - ✔️ Adicionar testes de integração e unitários ao projeto utilizando [JEST](https://jestjs.io/docs/en/getting-started) e [SQLITE](https://www.sqlite.org/docs.html)
 - ✔️ Adicionar botões de <b>Login Social</b> na aplicação, utilizando o <b>Google</b>, <b>Facebook</b> e <b>GitHub</b>
 - ❌ Adicionar autenticação utilizando o JWT e o Passport / [Dica do LuizTools](https://www.luiztools.com.br/post/autenticacao-json-web-token-jwt-em-nodejs/)
-- ✔️ Alterar a animação da navegação do mobile para deixá-la igual a de <b>IOS</b> / [Dica do ARTHURPC03](https://github.com/ARTHURPC03/Be-The-Hero/)
+- ✔️ Alterar a animação da navegação do mobile para deixá-la igual a de <b>IOS</b> / [Dica do DevlumaPC03](https://github.com/DevlumaPC03/Be-The-Hero/)
 - ❌ Ajustar o aplicativo web para aceitar responsividade
 - ❌ Utilizar [Styled-Components](https://styled-components.com/) para estilizar as telas da aplicação
 - ❌ Utilizar [@typescript](https://www.typescriptlang.org/) como superset no JavaScript
@@ -113,7 +159,7 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
 
 O layout da aplicação está no [Figma](#Layout).
 
-### :information_source: Como usar
+### :information_source: Como Usar
 
 Para clonar e executar este projeto, você precisará do [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [NodeJS](https://nodejs.org/en/docs/) + [Yarn](https://yarnpkg.com/) instalados no seu computador.
 
@@ -268,13 +314,17 @@ $ docker-compose up nodejs sqlite3 -d --build
 - [React e React Native da Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg/playlists)
 - [Configurações do VS Code do DIEGO3G](https://www.youtube.com/watch?v=TI4v4Y8yRjw/)
 - [Testes no NodeJS aplicando TDD com Jest do DIEGO3G](https://www.youtube.com/watch?v=2G_mWfG0DZE&t/)
-- [Template Dark utilizando Theme Switcher do ARTHURPC03](https://www.youtube.com/watch?v=dYRHe2Kkq04&t/)
+- [Template Dark utilizando Theme Switcher do DevlumaPC03](https://www.youtube.com/watch?v=dYRHe2Kkq04&t/)
 - [Animações com CSS3 do Ricardo Sanches](https://www.youtube.com/watch?v=_w57bWIPZKE/)
 
-# 👪 Contribuições
+# 🤝 Contribuições
 
 😉 Contribuições são <b>Bem-Vindas</b>! <br />
 🌈 Sinta-se livre para abrir uma <b>ISSUE</b> ou um <b>PULL REQUEST</b> e participar do projeto como você desejar.
+
+### Mostrei seu Apoio
+
+Dê uma ⭐️ se este projeto te ajudou de alguma forma 😉
 
 # 📜 Direitos e Licença
 
@@ -282,7 +332,7 @@ $ docker-compose up nodejs sqlite3 -d --build
 
 # 🙌 Apoio
 
-<div align="left">
+<p align="left">
   <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <span align="left">
     <a href="https://www.sysdomotic.com.br/" target="_blank">
@@ -295,18 +345,10 @@ $ docker-compose up nodejs sqlite3 -d --build
       <img alt="Maizzon.com.br" src="github/logo-maizzon.png" width="86px" />
     </a>
   </span>
-</div>
+</p>
 
-# 🔋 Status do Projeto
+---
 
-[![App Version][version-image]][version-url]
-![Build Status][plataform-image]
-[![Downloads Stats][version-download-image]][version-download]
+Desenvolvido por [Devluma](https://github.com/devluma) :blue_heart:
 
 ###### <div align="right">[Voltar](#projeto-be-the-hero) ↺</div>
-
-[version-image]: https://img.shields.io/badge/version-0.1.2-brightgreen?style=flat-square
-[version-url]: https://github.com/devluma/semana-omni-stack11/releases
-[version-download-image]: https://img.shields.io/badge/download-0.1.2-blue?style=flat-square
-[version-download]: https://github.com/devluma/semana-omni-stack11/archive/master.zip
-[plataform-image]: https://img.shields.io/badge/plataform-API%20%7C%20WEB%20%7C%20MOBILE-lightgrey
