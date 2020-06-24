@@ -324,9 +324,9 @@ $ docker-compose up nodejs sqlite3 -d --build
 😉 Contribuições são <b>Bem-Vindas</b>! <br />
 🌈 Sinta-se livre para abrir uma <b>ISSUE</b> ou um <b>PULL REQUEST</b> e participar do projeto como você desejar.
 
-### 🤘 Mostrei seu Apoio 💞
+### 🤘 Mostre o seu Apoio 💞
 
-Dê uma ⭐️ se este projeto te ajudou de alguma forma 😉
+Dê uma ⭐️ se este projeto te ajudou de alguma forma 😉🎅
 
 # 📜 Direitos e Licença
 
