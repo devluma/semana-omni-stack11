@@ -11,8 +11,9 @@
 </p>
 
 <p align="center">
+  <img alt="Version" src="https://img.shields.io/github/package-json/v/devluma/semana-omni-stack11">
   <a href="https://github.com/devluma/semana-omni-stack11/releases">
-    <img alt="Version" src="https://img.shields.io/github/package-json/v/devluma/semana-omni-stack11">
+    <img alt="Release" src="https://img.shields.io/github/v/release/devluma/semana-omni-stack11">
   </a>
   <a href="https://github.com/devluma/semana-omni-stack11/commits/master">
     <img alt="Last commit date" src="https://img.shields.io/github/last-commit/devluma/semana-omni-stack11">
