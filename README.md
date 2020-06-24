@@ -26,9 +26,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/devluma" target="_blank">
-    <img alt="Made by Devluma" src="https://img.shields.io/badge/made%20by-Devluma-informational">
-  </a>
+  <img alt="Made by Devluma" src="https://img.shields.io/badge/made%20by-Devluma-informational">
   <a href="https://github.com/devluma" target="_blank" >
     <img alt="Github - Devluma" src="https://img.shields.io/badge/Github--%23F8952D?style=social&logo=github">
   </a>
