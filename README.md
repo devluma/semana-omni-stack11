@@ -48,6 +48,8 @@
   <a href="#-contribuições">Contribuições</a>&nbsp;&nbsp;
 </p>
 
+<br />
+
 # Projeto `Be The Hero`
 
 Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem utilizada no desafio da Semana OmniStack 11 da [Rocketseat](https://rocketseat.com.br/).
@@ -322,7 +324,7 @@ $ docker-compose up nodejs sqlite3 -d --build
 😉 Contribuições são <b>Bem-Vindas</b>! <br />
 🌈 Sinta-se livre para abrir uma <b>ISSUE</b> ou um <b>PULL REQUEST</b> e participar do projeto como você desejar.
 
-### Mostrei seu Apoio
+### 🤘 Mostrei seu Apoio 💞
 
 Dê uma ⭐️ se este projeto te ajudou de alguma forma 😉
 
