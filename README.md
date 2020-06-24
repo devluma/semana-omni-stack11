@@ -4,14 +4,13 @@
 
 <p align="center">
   <img alt="Plataform" src="https://img.shields.io/badge/plataform-API%20%7C%20WEB%20%7C%20MOBILE-lightgrey">
+  <img alt="License" src="https://img.shields.io/github/license/devluma/semana-omni-stack11">
   <img alt="Languagues" src="https://img.shields.io/github/languages/count/devluma/semana-omni-stack11">
   <img alt="Top Languague" src="https://img.shields.io/github/languages/top/devluma/semana-omni-stack11">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/devluma/semana-omni-stack11">
-  <img alt="License" src="https://img.shields.io/github/license/devluma/semana-omni-stack11">
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/github/package-json/v/devluma/semana-omni-stack11">
   <a href="https://github.com/devluma/semana-omni-stack11/releases">
     <img alt="Release" src="https://img.shields.io/github/v/release/devluma/semana-omni-stack11">
   </a>
