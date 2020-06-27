@@ -79,7 +79,7 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 
 ### 🗨️ Traduções
 
-1. [Inglês] :🇺🇸:
+1. [Inglês] 🇺🇸🌈🕎❤👪🐕🐣🐇⚘�
     > The documentation has three types of language 1 -> pt-BR, 2 -> en and 3 -> es.
 2. [Espanhol] :🇪🇸:
     > La documentación tiene tres tipos de lenguaje 1 -> pt-BR, 2 -> en y 3 -> es
