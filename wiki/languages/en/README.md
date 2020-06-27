@@ -1,0 +1,3 @@
+# README
+
+> US English translation.
