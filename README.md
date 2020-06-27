@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Be The Hero" src="github/logo-be-the-hero.svg" width="200px" />
+    <img alt="Be The Hero" src="static/logo-be-the-hero.svg" width="200px" />
 </h1>
 
 <p align="center">
@@ -90,7 +90,7 @@ A <b>API RESTful</b> foi criada utilizando <b>ExpressJS</b> com <b>Knex</b> e o 
   <tbody>
     <tr>
       <td>
-        <img alt="API Teste no Insomnia" src="github/api-test-insomnia.gif" />
+        <img alt="API Teste no Insomnia" src="static/api-test-insomnia.gif" />
       </td>
     </tr>
   </tbody>
@@ -109,7 +109,7 @@ A <b>Aplicação WEB</b> foi criada utilizando <b>ReactJS</b> com <b>CSS3</b> e 
   <tbody>
     <tr>
       <td>
-        <img alt="Web Application Normal GIF" src="github/frontend-functional.gif" />
+        <img alt="Web Application Normal GIF" src="static/frontend-functional.gif" />
       </td>
     </tr>
   </tbody>
@@ -124,7 +124,7 @@ A <b>Aplicação WEB</b> foi criada utilizando <b>ReactJS</b> com <b>CSS3</b> e 
   <tbody>
     <tr>
       <td>
-        <img alt="Web Application Dark GIF" src="github/frontend-functional-dark.gif" />
+        <img alt="Web Application Dark GIF" src="static/frontend-functional-dark.gif" />
       </td>
     </tr>
   </tbody>
@@ -146,10 +146,10 @@ A <b>Aplicação MOBILE</b> foi criada utilizando <b>React Native</b> com <b>Exp
   <tbody>
     <tr>
       <td>
-        <img alt="Mobile Application Normal GIF" src="github/mobile-functional.gif" width="277px" height="564px" />
+        <img alt="Mobile Application Normal GIF" src="static/mobile-functional.gif" width="277px" height="564px" />
       </td>
       <td>
-        <img alt="Mobile Application Dark GIF" src="github/mobile-functional-dark.gif" width="277px" height="564px" />
+        <img alt="Mobile Application Dark GIF" src="static/mobile-functional-dark.gif" width="277px" height="564px" />
       </td>
     </tr>
   </tbody>
@@ -336,13 +336,13 @@ Dê uma ⭐️ se este projeto te ajudou de alguma forma 😉🎅
   <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <span align="left">
     <a href="https://www.sysdomotic.com.br/" target="_blank">
-      <img alt="Sysdomotic.com.br" src="github/logo-sysdomotic.png" width="96px" />
+      <img alt="Sysdomotic.com.br" src="static/logo-sysdomotic.png" width="96px" />
     </a>
   </span>
   <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
   <span align="left">
     <a href="https://www.maizzon.com.br/" target="_blank"  margin="15px">
-      <img alt="Maizzon.com.br" src="github/logo-maizzon.png" width="96px" />
+      <img alt="Maizzon.com.br" src="static/logo-maizzon.png" width="96px" />
     </a>
   </span>
 </p>
