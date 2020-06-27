@@ -79,10 +79,10 @@ Aplicação com intuito de estudar Node.js, ReactJS e React Native. Abordagem ut
 
 ### 🗨️ Traduções
 
-1. [Inglês] :us:
-    > The documentation has three types of language 1 -> pt-BR, 2 -> en and 3 -> es.
-2. [Espanhol] :es:
-    > La documentación tiene tres tipos de lenguaje 1 -> pt-BR, 2 -> en y 3 -> es
+1. [Inglês](https://github.com/devluma/semana-omni-stack11/wiki/translations/en) :us:
+    > The documentation has three types of language 1 -> Original language is pt-BR, 2 -> en and 3 -> es.
+2. [Espanhol](https://github.com/devluma/semana-omni-stack11/wiki/translations/es) :es:
+    > La documentación tiene tres tipos de lenguaje 1 -> El idioma original es pt-BR, 2 -> en y 3 -> es
 
 ### 👉 Back-end:
 
